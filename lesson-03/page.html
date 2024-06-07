@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buttons</title>
+    <style>
+        .sub{
+            background-color: rgb(235, 7, 7);
+            color: white;
+            height: 40px;
+            width: 120px;
+            font-size: large;
+            border: none;
+            font-weight: bold;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: opacity 0.2s;
+        }
+        .sub:hover{
+            opacity: 0.75;
+        }
+        .sub:active{
+            opacity: 0.5;
+        }
+        .join{
+            background-color: white;
+            height: 40px;
+            font-size: large;
+            font-weight: bold;
+            color: blue;
+            width: 85px;
+            border: rgb(0, 0, 172);
+            border-width: 2px;
+            border-style: solid;
+            border-radius: 2px;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+        .join:hover{
+            background-color: blue;
+            color: white;
+        }
+        .join:active{
+            opacity: 0.6;
+        }
+        .tweet{
+            background-color: rgb(24, 109, 220);
+            transition: all 0.2s;
+            color: white;
+            border: none;
+            border-radius: 20px;
+            height: 40px;
+            width: 85px;
+            font-size: large;
+            font-weight: bolder;
+            cursor: pointer;
+            }
+        .tweet:hover{
+            box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.60);
+        }
+        .tweet:active{
+            opacity: 0.50;
+        }
+    </style>
+</head>
+<body>
+    <button class="sub">Subscribe</button>
+    <button class="join">Join</button>
+    <button class="tweet">Tweet</button>
+</body>
+</html>
