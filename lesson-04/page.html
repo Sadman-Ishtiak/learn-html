@@ -3,63 +3,72 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Buttons</title>
     <style>
-        p{
-            font-family: Arial;
-            margin-top: 0px;
-            margin-bottom: 0px;
-        }
-        h1{
-            font-family: Arial;
-            font-weight: bold;
-            font-size: 18px;
-            width: 300px;
-            line-height: 24px;
-            margin-bottom: 5px;
-        }
-        .video-stats{
-            font-family: Arial;
-            font-size: 14px;
-            color: rgb(90, 90, 90);
-            margin-bottom: 20px;
-        }
-        .name{
-            font-family: Arial;
-            font-size: 14px;
-            margin-bottom: 20px;
-        }
-        .discription{
-            font-family: Arial;
-            font-size: 14px;
-            color: rgb(96, 96, 96);
-            width: 300px;
-            line-height: 20px;
-        }
-        .apple{
-            margin-top: 50px;
-            font-size: 14px;
-            background-color: red;
+        .sub{
+            background-color: rgb(235, 7, 7);
             color: white;
-            text-align: center;
+            padding: 10px;
+            font-size: large;
+            border: none;
+            font-weight: bold;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: all 0.2s;
+            margin: 10px 10px 10px 10px;
+        }
+        .sub:hover{
+            opacity: 0.75;
+            margin: 0px 0px 0px 0px;
             padding: 20px;
         }
-        .wowlink:hover{
-            cursor: pointer;
+        .sub:active{
+            opacity: 0.5;
+        }
+        .join{
+            background-color: white;
+            height: 40px;
+            font-size: large;
             font-weight: bold;
-            text-decoration: underline;
+            color: blue;
+            width: 85px;
+            border: rgb(0, 0, 172);
+            border-width: 2px;
+            border-style: solid;
+            border-radius: 2px;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+        .join:hover{
+            background-color: blue;
+            color: white;
+        }
+        .join:active{
+            opacity: 0.6;
+        }
+        .tweet{
+            background-color: rgb(24, 109, 220);
+            transition: all 0.2s;
+            color: white;
+            border: none;
+            border-radius: 20px;
+            height: 40px;
+            width: 85px;
+            font-size: large;
+            font-weight: bolder;
+            cursor: pointer;
+            }
+        .tweet:hover{
+            box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.60);
+        }
+        .tweet:active{
+            opacity: 0.50;
         }
     </style>
 </head>
 <body>
-    <h1>Tallking Tech amd AI with Google CEO Sundar Pichai</h1>
-    <p class="video-stats">3.4M views &#xb7; 6 months ago</p>
-    <p class="name">Marques Brownlee &#10003</p>
-    <p class="discription">
-        Talking Tech and AI on the hells of Google I/O. Also a daily driver phone reveal from Google CEO Sundar Pichai. Shoutout to Sundar.
-    </p>
-    <p class="apple">
-        Shop early for the best selection of holiday favourites. <span class="wowlink">Shop now &#62;</span>
-    </p>
+    <button class="sub">Subscribe</button>
+    <button class="join">Join</button>
+    <button class="tweet">Tweet</button>
 </body>
 </html>
