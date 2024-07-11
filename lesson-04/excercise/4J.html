@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model</title>
+    <style>
+        button{
+            font-size: xx-large;
+            padding: 10px 15px;
+            background-color: #009933;
+            color: white;
+            cursor: pointer;
+            /* border: none; */
+            border-width: 0px;
+            transition: all 0.2s;
+        }
+        button:hover{
+            box-shadow: 5px 5px 15px 5px black;
+        }
+        button:active{
+            transition: all 0.1s;
+            border-color: black;
+            border-width: 3px;
+            opacity: 0.8;
+            box-shadow: 0px 0px 0px 0px black;
+        }
+    </style>
+</head>
+<body>
+    <button>Shadow</button>
+</body>
+</html>
