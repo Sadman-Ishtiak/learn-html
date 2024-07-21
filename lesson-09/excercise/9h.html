@@ -4,12 +4,61 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>9H</title>
+    <style>
+        p.title{
+            text-align: center;
+            font-size: 100px;
+            padding: 0px;
+            margin: 0px;
+        }
+        input{
+            align-self: center;
+            width: 600px;
+            height: 60px;
+            text-indent: 15px;
+            border-radius: 30px;
+            border-style: solid;
+            cursor: text;
+            transition: all 0.2s;
+            font-size: 20px;
+        }
+        input:hover{
+            box-shadow: 2px 2px 10px gray;
+        }
+        .blue{
+            color: blue;
+        }
+        .red{
+            color: red;
+        }
+        .yellow{
+            color: rgb(151, 151, 0);
+        }
+        .green{
+            color: green;
+        }
+        .gray{
+            margin-top: 10px;
+            margin-right: 20px;
+            padding: 10px 30px;
+            border: none;
+            background-color: lightgray;
+            font-weight: bold;
+            font-size: 15px;
+        }
+    </style>
 </head>
 <body>
-    <p class="title"> 
-        <span class="blue">G</span><span class="red">o</span><span class="yellow">o</span><span class="blue">g</span><span class="green">l</span><span class="red">e</span>
-        <br>
-        <input type="text" name="SearchBox" id="SearchBox" placeholder="Search">
-    </p>
+    <div>
+        <p class="title"> 
+            <span class="blue">G</span><span class="red">o</span><span class="yellow">o</span><span class="blue">g</span><span class="green">l</span><span class="red">e</span>
+            <br>
+            <input type="text" name="SearchBox" id="SearchBox" placeholder="Search Google or type a URL">
+        </p>
+        <center>
+            <button class="gray">Google Search</button>
+            <button class="gray">I'm Feeling Lucky</button>
+        </center>
+    </div>
 </body>
 </html>
