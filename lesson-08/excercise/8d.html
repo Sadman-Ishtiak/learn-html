@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>8d</title>
+    <style>
+        *{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: large;
+        }
+        .entrybox{
+            display: inline-block;
+            width: 400px;
+            /* background-color: red; */
+            padding: 0px;
+            margin: 2px 0px;
+        }
+        .lastName,
+        .fname{
+            display: inline-block;
+            border-radius: 5px;
+            border-style: solid;
+            border-width: 2px;
+            padding: 5px;
+            margin: 2px 0px;
+            width: 184.3px;
+        }
+        .mail{
+            display: block;
+            margin: 2px 0px;
+            border-width: 2px;
+            border-radius: 5px;
+            padding: 5px;
+            width: 387px;
+        }
+        .submit{
+            display: block;
+            width: 100%;
+            margin: 2px 0px;
+            border-radius: 5px;
+            border: none;
+            padding: 5px;
+            text-align: center;
+            background-color: blue;
+            color: white;
+            font-weight: bolder;
+        }
+    </style>
+</head>
+<body>
+    <div class="entrybox">
+        <input type="text" name="firstName" id="firstName" class="fname" placeholder="First Name">
+        <input type="text" name="lastName" id="lastName" class="lastName" placeholder="Last Name">
+        <input type="email" name="email" id="email" class="mail" placeholder="E-Mail">
+        <button type="submit" class="submit">Submit</button>
+    </div>
+</body>
+</html>
