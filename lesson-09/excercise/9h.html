@@ -12,6 +12,8 @@
             margin: 0px;
         }
         input{
+            border-width: 1px;
+            border-color: gray;
             align-self: center;
             width: 600px;
             height: 60px;
@@ -45,6 +47,17 @@
             background-color: lightgray;
             font-weight: bold;
             font-size: 15px;
+            transition: all 0.2s;
+        }
+        .gray:hover{
+            cursor: pointer;
+            box-shadow: 0px 0px 5px black;
+        }
+        .gray:active{
+            box-shadow: 0px 0px 0px black;
+        }
+        .center{
+            text-align: center;
         }
     </style>
 </head>
@@ -55,10 +68,10 @@
             <br>
             <input type="text" name="SearchBox" id="SearchBox" placeholder="Search Google or type a URL">
         </p>
-        <center>
+        <div class="center">
             <button class="gray">Google Search</button>
             <button class="gray">I'm Feeling Lucky</button>
-        </center>
+        </div>
     </div>
 </body>
 </html>
