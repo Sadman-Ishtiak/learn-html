@@ -24,6 +24,14 @@
             width: 300px;
             margin: 10px;
         }
+        .vertical{
+            display: block;
+            width: auto;
+        }
+        .horizontal{
+            display: inline-block;
+            width: auto;
+        }
     </style>
 </head>
 <body>
@@ -37,10 +45,19 @@
         <p class="stats">3.4M views &#xb7; 6 months ago</p>
     </div>
     <div class="videocard">
-        <img src="images/IMG_20231021_163333.jpg" alt="Sadman Ishtiak" class="thumbnails">
-        <p class="videotitle">Try not to laugh challange #8</p>
-        <p class="channel">Markipliar</p>
-        <p class="stats">19M views &#xb7; 4 years ago</p>
+        <div class="vertical">
+            <img src="images/IMG_20231021_163333.jpg" alt="Sadman Ishtiak" class="thumbnails">
+        </div>
+        <div class="vertical">
+            <div class="horizontal">
+                <img src="images/IMG_20240220_162621.jpg" alt="">
+            </div>
+            <div class="horizontal">
+                <p class="videotitle">Try not to laugh challange #8</p>
+                <p class="channel">Markipliar</p>
+                <p class="stats">19M views &#xb7; 4 years ago</p>
+            </div>
+        </div>
     </div>
 </body>
 </html>
